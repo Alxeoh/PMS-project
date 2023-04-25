@@ -20,7 +20,6 @@
 	%>
 
 	<c:set var="boardList" value="<%=boardDao.getBoardAll()%>" />
-	<c:set var="size" value="${fn:length(boardList)}" />
 
 	<table>
 		<thead>
